@@ -1,0 +1,53 @@
+#clock{
+    position: relative;
+    margin: auto;
+    height: 35vw;
+    width: 35vw;
+    /* height: 355px; */
+    /* width: 355px; */
+    background: url("pc58gpA9i.gif" ) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#hour{
+    height: 25.3%;
+    width: 2%;
+    left: 48.8%;
+    top: 25%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#minute{
+    /* position: absolute; */
+    background-color: black;
+    border-radius: 10px;
+    height: 31%;
+    width: 1%;
+    left: 49.37%;
+    top: 19%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 41.4%;
+    width: 0.7%;
+    left: 49.55%;
+    top: 9%;
+    opacity: 0.8;
+    /* display: none; */
+}
+.name{
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vh;
+}
